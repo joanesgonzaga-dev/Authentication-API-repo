@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Softaway.Identidade.API
 {
+    [ApiController] //Define o tipo de Controller como Api, o que muda o comportamento e retorno do Swagger
     [Route("api/identidade")]
     public class AuthController : Controller
     {
